@@ -18,6 +18,8 @@ All W-BOX functions are reachable from standard web browsers (IE, Firefox, Chrom
   * ADS
   * HUE
   * SONOS
+  * SMTP
+  * SMS (via Weble SMS https://www.weble.ch/services/ OR 3G/4G USB modem)
   
 #Futures drivers
   * MBus
