@@ -1,6 +1,6 @@
 # Weble IoT Gateway
 
-Helping you to optimize your building automation system is one of our main goals. To achieve it, we have developed our own monitoring system compatible with KNX USB/IP/Multicast,Modbus TCP/RTU, Bacnet IP/MSTP, ESPA 4.4.4, Zwave protocols. You can automate your building by triggering commands, generating alarms, creating charts and reports.
+Helping you to optimize your building automation system is one of our main goals. To achieve it, we have developed our own monitoring system compatible with KNX USB/IP/Multicast,Modbus TCP/RTU, Bacnet IP/MSTP, ESPA 4.4.4, Zwave protocols, ADS, HUE, SONOS. You can automate your building by triggering commands, generating alarms, creating charts and reports.
 
 You may create your own logic circuits, also complex ones, with our modern graphical interface, which simplifies the integration of your concepts. Discover a very efficient tool, an improvement compared with available products in the market. Our logic module is real artificial intelligence, helping you to configure your building automation system.
 
