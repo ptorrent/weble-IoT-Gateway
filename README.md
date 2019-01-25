@@ -1,4 +1,4 @@
-# Weble IoT Gateway
+# v1.5 Weble IoT Gateway
 
 Helping you to optimize your building automation system is one of our main goals. To achieve it, we have developed our own monitoring system compatible with multiple protocols. You can automate your building by triggering commands, generating alarms, creating charts and reports.
 
