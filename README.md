@@ -8,7 +8,7 @@ You can record the activities of the fieldbus and generate PDF reports, in order
 
 All W-BOX functions are reachable from standard web browsers (IE, Firefox, Chrome, Safari, Opera). You may perform configuration and maintenance from your computer, your tablet, your smartphone, on site (WiFi LAN) or remotely with the secure access Connect module.
 
-#Current supported drivers 
+# Current supported drivers 
 
   * KNX USB/IP/Multicast
   * Modbus TCP/RTU
@@ -21,7 +21,7 @@ All W-BOX functions are reachable from standard web browsers (IE, Firefox, Chrom
   * SMTP
   * SMS (via Weble SMS https://www.weble.ch/services/ OR 3G/4G USB modem)
   
-#Futures drivers
+# Futures drivers
   * MBus
   * OPC UA
 
