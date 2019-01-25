@@ -10,4 +10,5 @@ All W-BOX functions are reachable from standard web browsers (IE, Firefox, Chrom
 
 
 Official website => https://www.weble.ch
+
 API => https://api.weble.ch
