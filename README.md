@@ -11,10 +11,10 @@ All W-BOX functions are reachable from standard web browsers (IE, Firefox, Chrom
 # Current supported drivers 
 
   * KNX USB/IP/Multicast
-  * Modbus TCP/RTU
+  * Modbus TCP/RTU (slave/master)
   * Bacnet IP/MSTP 
-  * ESPA 4.4.4
-  * Zwave protocols
+  * ESPA 4.4.4 (slave/master)
+  * Zwave
   * ADS
   * HUE
   * SONOS
