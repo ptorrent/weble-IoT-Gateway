@@ -3,7 +3,9 @@
 
 ### Changed
 
-- ESPA 4.4.4 driver : Master mode
+- ESPA 4.4.4 driver 
+    -   Master mode
+    -   Adding parameter "inactivityTimeout" for the gateway. If no communication during this interval, the gateway will restart (master/slave mode).
 
 ### Fixed
 
