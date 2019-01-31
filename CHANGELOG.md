@@ -14,6 +14,7 @@
 - Remote Gateway 
     - No changing local value if remote value is undefined : https://github.com/ptorrent/webleIoTGateway/issues/2 
 - Modbus driver
+    - Adding "fillWithZero" paremeter. In slave mode, it's possible to set register default value (0) if fillWithZero is enable.
     - Solve some flushing issue
 
 ## [1.5] - 2019-25-01
