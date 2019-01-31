@@ -1,6 +1,9 @@
 
 ## [1.6] - 2019-01-31
 
+### Changed
+- ESPA 4.4.4 driver : Master mode
+
 ### Fixed
 - Logic module 
     - AddressListener emit undefined value: https://github.com/ptorrent/webleIoTGateway/issues/5
