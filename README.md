@@ -29,7 +29,7 @@ All W-BOX functions are reachable from standard web browsers (IE, Firefox, Chrom
 
 # Questions?
 
-[Contact amCharts](mailto:support@weble.ch).
+[Contact Weble](mailto:support@weble.ch).
 
 
 # Found a bug?
