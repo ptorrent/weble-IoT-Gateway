@@ -8,6 +8,10 @@ You can record the activities of the fieldbus and generate PDF reports, in order
 
 All W-BOX functions are reachable from standard web browsers (IE, Firefox, Chrome, Safari, Opera). You may perform configuration and maintenance from your computer, your tablet, your smartphone, on site (WiFi LAN) or remotely with the secure access Connect module.
 
+### API
+You can find our API here : 
+  [api](https://api.weble.ch)
+
 # Current supported drivers 
 
   * KNX USB/IP/Multicast
@@ -29,7 +33,7 @@ All W-BOX functions are reachable from standard web browsers (IE, Firefox, Chrom
 
 # Questions?
 
-[Contact Weble](mailto:support@weble.ch).
+[Contact Weble](mailto:support@weble.ch)
 
 
 # Found a bug?
@@ -37,5 +41,3 @@ All W-BOX functions are reachable from standard web browsers (IE, Firefox, Chrom
 Open an [issue](https://github.com/ptorrent/webleIoTGateway/issues).
 
 Official website => https://www.weble.ch
-
-API => https://api.weble.ch
