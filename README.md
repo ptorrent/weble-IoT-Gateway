@@ -27,6 +27,14 @@ All W-BOX functions are reachable from standard web browsers (IE, Firefox, Chrom
   * MBus
   * OPC UA
 
+# Questions?
+
+[Contact amCharts](mailto:support@weble.ch).
+
+
+# Found a bug?
+
+Open an [issue](https://github.com/ptorrent/webleIoTGateway/issues).
 
 Official website => https://www.weble.ch
 
