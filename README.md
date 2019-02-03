@@ -15,6 +15,7 @@ All W-BOX functions are reachable from standard web browsers (IE, Firefox, Chrom
   * Bacnet IP/MSTP 
   * ESPA 4.4.4 (slave/master)
   * Zwave
+  * ICX
   * ADS
   * HUE
   * SONOS
