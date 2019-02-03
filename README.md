@@ -9,9 +9,12 @@ You can record the activities of the fieldbus and generate PDF reports, in order
 All W-BOX functions are reachable from standard web browsers (IE, Firefox, Chrome, Safari, Opera). You may perform configuration and maintenance from your computer, your tablet, your smartphone, on site (WiFi LAN) or remotely with the secure access Connect module.
 
 ### API
+
 You can find our API here : 
   [api](https://api.weble.ch)
-  
+
+### Official webset
+
 Our official website :
   [weble](https://www.weble.ch)
   
