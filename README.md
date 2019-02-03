@@ -14,6 +14,7 @@ All W-BOX functions are reachable from standard web browsers (IE, Firefox, Chrom
   * Modbus TCP/RTU (slave/master)
   * Bacnet IP/MSTP 
   * ESPA 4.4.4 (slave/master)
+  * MQTT Broker/client
   * Zwave
   * ICX
   * ADS
