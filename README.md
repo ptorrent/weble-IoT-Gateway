@@ -11,12 +11,12 @@ All W-BOX functions are reachable from standard web browsers (IE, Firefox, Chrom
 ### API
 
 You can find our API here : 
-  [api](https://api.weble.ch)
+  [https://api.weble.ch](https://api.weble.ch)
 
 ### Official webset
 
 Our official website :
-  [weble](https://www.weble.ch)
+  [https://www.weble.ch](https://www.weble.ch)
   
 # Current supported drivers 
 
