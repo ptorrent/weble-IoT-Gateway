@@ -31,10 +31,12 @@ Our official website :
   * HUE
   * SONOS
   * SMTP
+  * Uhoo
   * SMS (via Weble SMS https://www.weble.ch/services/ OR 3G/4G USB modem)
   
 # Futures drivers
   * MBus
+  * Smart-me
   * OPC UA
 
 # Questions?
