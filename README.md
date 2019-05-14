@@ -1,4 +1,4 @@
-# v1.7 Weble IoT Gateway
+# v2.7 (r 2311) Weble IoT Gateway
 
 Helping you to optimize your building automation system is one of our main goals. To achieve it, we have developed our own monitoring system compatible with multiple protocols. You can automate your building by triggering commands, generating alarms, creating charts and reports.
 
@@ -32,11 +32,11 @@ Our official website :
   * SONOS
   * SMTP
   * Uhoo
+  * Smart-me
   * SMS (via Weble SMS https://www.weble.ch/services/ OR 3G/4G USB modem)
   
 # Futures drivers
   * MBus
-  * Smart-me
   * OPC UA
 
 # Questions?
