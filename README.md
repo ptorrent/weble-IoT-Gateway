@@ -32,6 +32,7 @@ Our official website :
   * SONOS
   * SMTP
   * Uhoo
+  * Cron
   * Smart-me
   * SMS (via Weble SMS https://www.weble.ch/services/ OR 3G/4G USB modem)
   * MBus
