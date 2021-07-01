@@ -34,11 +34,11 @@ Our official website :
   * Uhoo
   * Smart-me
   * SMS (via Weble SMS https://www.weble.ch/services/ OR 3G/4G USB modem)
-  
-# Futures drivers
   * MBus
   * OPC UA
-
+  * Google NEST
+  * Velux
+  
 # Questions?
 
 [Contact Weble](mailto:support@weble.ch)
