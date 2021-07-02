@@ -13,7 +13,7 @@ All Weble IoT Gateway functions are reachable from standard web browsers (IE, Fi
 You can find our API here : 
   [https://api.weble.ch](https://api.weble.ch)
 
-### Official webset
+### Official website
 
 Our official website :
   [https://www.weble.ch](https://www.weble.ch)
