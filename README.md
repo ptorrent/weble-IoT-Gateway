@@ -20,6 +20,9 @@ Our official website :
   
 # Current supported drivers 
 
+  * Azure Microsoft
+  * AWS Amazone
+  * Google Cloud
   * KNX USB/IP/Multicast
   * Modbus TCP/RTU (slave/master)
   * Bacnet IP/MSTP 
@@ -31,7 +34,11 @@ Our official website :
   * HUE
   * SONOS
   * SMTP
+  * Luxmate
+  * Lorawan (client)
   * Uhoo
+  * SNMP
+  * HTTP (client/server)
   * Cron
   * Smart-me
   * SMS (via Weble SMS https://www.weble.ch/services/ OR 3G/4G USB modem)
