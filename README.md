@@ -9,8 +9,8 @@ You can record the activities of the fieldbus and generate PDF reports, in order
 All Weble IoT Gateway functions are reachable from standard web browsers (IE, Firefox, Chrome, Safari, Opera). You may perform configuration and maintenance from your computer, your tablet, your smartphone, on site (WiFi LAN) or remotely with the secure access Connect module.
 
 
-### Weble Connect
-  1. Configure Tight VNC Viewer
+# [Weble Connect](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-connect.md)
+  1. [Configure Tight VNC Viewer](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-connect.md)
 
 ### API
 
