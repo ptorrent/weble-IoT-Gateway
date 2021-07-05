@@ -3,7 +3,7 @@
 
 ### TIGHT VNC Viewer
 
-It is possible to open itghut vnc viewer automatically from the interface. To do so, you just have to add this parameter to the configuration file and restart "Weble Connect".
+It is possible to open [Tight VNC Viewer](https://www.tightvnc.com/download.php) automatically from the interface. To do so, you just have to add this parameter to the configuration file and restart "Weble Connect".
 
 Config file (/supervision/config.sup in your application directory):
 
