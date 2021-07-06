@@ -11,6 +11,7 @@ All Weble IoT Gateway functions are reachable from standard web browsers (IE, Fi
 
 # [Weble Connect](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-connect.md)
   1. [Configure Tight VNC Viewer](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-connect.md)
+  2. [Restart your application](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-connect.md)
 
 ### API
 
