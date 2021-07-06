@@ -15,7 +15,7 @@ WC_TIGHTVNCVIEWER_PATH=C:\Program Files\TightVNC\tvnviewer.exe
 ```
 Restart your application
 
-Now you're able to directly open Tight VNC Viewer:
+Now you're able to directly open Tight VNC Viewer (this feature is only available for host connection, not dashboard) :
 
 ![tightvnc](https://user-images.githubusercontent.com/6083644/124434412-257fa800-dd74-11eb-84cd-9fcd8ec02d29.png)
 
