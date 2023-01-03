@@ -13,10 +13,7 @@ All Weble IoT Gateway functions are reachable from standard web browsers (IE, Fi
   1. [Configure Tight VNC Viewer](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-connect.md)
   2. [Restart your application](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-connect.md)
 
-# [Cloud](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-connect.md)
-
-# v1.1 (r1255) Weble Remote service
-# Server
+# [Cloud r1655](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-connect.md)
 
 Our VPN service is one of our best-seller service, with adoption by many local Swiss companies, and some multi-national companies mainly active in middle east and southeast Asia. All of our hardware & Windows software can connect to one of our distributed VPN servers either directly with a TCP connection or encapsulated inside an SSH or HTTP(S) tunnel to bypass firewalls. This VPN feature is very useful for remote maintenance of sites. Its P2P design also enables direct site-to-site connections.
 
