@@ -14,8 +14,8 @@ All Weble IoT Gateway functions are reachable from standard web browsers (IE, Fi
   2. [Restart your application](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-connect.md)
 
 # [Cloud](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-connect.md)
-  1. [Upading device from cloud](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-connect.md)
-  2. [Send file on RDP](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-connect.md)
+  1. [Upading device from cloud](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud.md)
+  2. [Send file on RDP](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud.md)
   
 ### API
 
