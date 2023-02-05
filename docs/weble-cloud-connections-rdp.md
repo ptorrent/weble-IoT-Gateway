@@ -6,7 +6,7 @@ RDP provides authentication through the use of a username, password, and optiona
 
 Most RDP servers will provide a graphical login if the username, password, and domain parameters are omitted. One notable exception to this is Network Level Authentication, or NLA, which performs all authentication outside of a desktop session, and thus in the absence of a graphical interface.
 
-Servers that require NLA can be handled by Guacamole in one of two ways. The first is to provide the username and password within the connection configuration, either via static values or by passing through the Guacamole credentials with parameter tokens and LDAP authentication. Alternatively, if credentials are not configured within the connection configuration, Guacamole will attempt to prompt the user for the credentials interactively, if the versions of both guacd and Guacamole Client in use support it. If either component does not support prompting and the credentials are not configured, NLA-based connections will fail.
+Servers that require NLA can be handled by Remote services in one of two ways. The first is to provide the username and password within the connection configuration, either via static values or by passing through the Remote services credentials with parameter tokens and LDAP authentication. Alternatively, if credentials are not configured within the connection configuration, Remote services will attempt to prompt the user for the credentials interactively, if the versions of both side in use support it. If either component does not support prompting and the credentials are not configured, NLA-based connections will fail.
 
 ### username
 The username to use to authenticate, if any. This parameter is optional.
@@ -26,7 +26,7 @@ Possible values are:
 Automatically select the security mode based on the security protocols supported by both the client and the server. This is the default.
 - **nla**:
 Network Level Authentication, sometimes also referred to as “hybrid” or CredSSP (the protocol that drives NLA). This mode uses TLS encryption and requires the username and password to be given in advance. Unlike RDP mode, the authentication step is performed before the remote desktop session actually starts, avoiding the need for the Windows server to allocate significant resources for users that may not be authorized.
-If the versions of guacd and Guacamole Client in use support prompting and the username, password, and domain are not specified, the user will be interactively prompted to enter credentials to complete NLA and continue the connection. Otherwise, when prompting is not supported and credentials are not provided, NLA connections will fail.
+If the versions of guacd and Remote services Client in use support prompting and the username, password, and domain are not specified, the user will be interactively prompted to enter credentials to complete NLA and continue the connection. Otherwise, when prompting is not supported and credentials are not provided, NLA connections will fail.
 - **nla-ext**:
 Extended Network Level Authentication. This mode is identical to NLA except that an additional “Early User Authorization Result” is required to be sent from the      server to the client immediately after the NLA handshake is completed.
 - **tls**:
