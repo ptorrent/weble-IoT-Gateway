@@ -1,4 +1,4 @@
-# v5.1 (r 405) Weble IoT Gateway
+# v7.1 (r 547) Weble IoT Gateway
 
 Helping you to optimize your building automation system is one of our main goals. To achieve it, we have developed our own monitoring system compatible with multiple protocols. You can automate your building by triggering commands, generating alarms, creating charts and reports.
 
@@ -69,6 +69,7 @@ Our official website :
   * OPC UA
   * Google NEST
   * Velux
+  * Meteo Matic
   
 # Questions?
 
