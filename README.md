@@ -20,12 +20,12 @@ Our VPN service is one of our best-seller service, with adoption by many local S
 The VPN services for remote maintenance and inter-site communication are currently paid by monthly fees subscriptions, and it is our goal to also offer smaller customers an on-demand pay to use option to access their remote sites / housing using crypto payments.
 
 # Current supported connections
-* VNC
+* [VNC](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-connections.md)
   1. [Send file on RDP](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud.md) 
-* [RDP](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-connections.md
-* [HTTP](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-connections.md
-* [PPTP/L2tp](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-connections.md
-* [VPN Tunnel](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-connections.md
+* [RDP](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-connections.md)
+* [HTTP](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-connections.md)
+* [PPTP/L2tp](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-connections.md)
+* [VPN Tunnel](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-connections.md)
 
 # Host managment
   1. [Host table](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-host.md)
