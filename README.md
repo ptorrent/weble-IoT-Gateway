@@ -22,10 +22,10 @@ The VPN services for remote maintenance and inter-site communication are current
 # Current supported connections
 * VNC
   1. [Send file on RDP](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud.md) 
-* RDP (https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-connections.md
-* HTTP (https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-connections.md
-* PPTP/L2tp (https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-connections.md
-* VPN Tunnel (https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-connections.md
+* [RDP](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-connections.md
+* [HTTP](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-connections.md
+* [PPTP/L2tp](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-connections.md
+* [VPN Tunnel](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-connections.md
 
 # Host managment
   1. [Host table](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-host.md)
