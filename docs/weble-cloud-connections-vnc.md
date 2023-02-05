@@ -53,9 +53,3 @@ Whether this connection should be read-only. If set to “true”, no input will
 
 #### force-lossless
 Whether this connection should only use lossless compression for graphical updates. If set to “true”, lossy compression will not be used. This parameter is optional. By default, lossy compression will be used when heuristics determine that it would likely outperform lossless compression.
-
-## RDP
-
-The RDP protocol is more complicated than VNC and was the second protocol officially supported by Guacamole. RDP tends to be faster than VNC due to the use of caching, which Guacamole does take advantage of.
-
-RDP support for Guacamole is provided by the libguac-client-rdp library, which will be installed as part of guacamole-server if the required dependencies are present during the build.
