@@ -22,30 +22,24 @@ The security mode to use for the RDP connection. This mode dictates how data wil
 
 Possible values are:
 
-#### any
+- **any**:
 Automatically select the security mode based on the security protocols supported by both the client and the server. This is the default.
-
-#### nla
+- **nla**:
 Network Level Authentication, sometimes also referred to as “hybrid” or CredSSP (the protocol that drives NLA). This mode uses TLS encryption and requires the username and password to be given in advance. Unlike RDP mode, the authentication step is performed before the remote desktop session actually starts, avoiding the need for the Windows server to allocate significant resources for users that may not be authorized.
-
 If the versions of guacd and Guacamole Client in use support prompting and the username, password, and domain are not specified, the user will be interactively prompted to enter credentials to complete NLA and continue the connection. Otherwise, when prompting is not supported and credentials are not provided, NLA connections will fail.
+- **nla-ext**:
+Extended Network Level Authentication. This mode is identical to NLA except that an additional “Early User Authorization Result” is required to be sent from the      server to the client immediately after the NLA handshake is completed.
+- **tls**:
+RDP authentication and encryption implemented via TLS (Transport Layer Security). Also referred to as RDSTLS, the TLS security mode is primarily used in load         balanced configurations where the initial RDP server may redirect the connection to a different RDP server.
+- **vmconnect**:
+Automatically select the security mode based on the security protocols supported by both the client and the server, limiting that negotiation to only the protocols   known to be supported by Hyper-V / VMConnect.
+- **rdp**:
+Legacy RDP encryption. This mode is generally only used for older Windows servers or in cases where a standard Windows login screen is desired. Newer versions of     Windows have this mode disabled by default and will only accept NLA unless explicitly configured otherwise.
 
-#### nla-ext
-Extended Network Level Authentication. This mode is identical to NLA except that an additional “Early User Authorization Result” is required to be sent from the server to the client immediately after the NLA handshake is completed.
-
-#### tls
-RDP authentication and encryption implemented via TLS (Transport Layer Security). Also referred to as RDSTLS, the TLS security mode is primarily used in load balanced configurations where the initial RDP server may redirect the connection to a different RDP server.
-
-#### vmconnect
-Automatically select the security mode based on the security protocols supported by both the client and the server, limiting that negotiation to only the protocols known to be supported by Hyper-V / VMConnect.
-
-#### rdp
-Legacy RDP encryption. This mode is generally only used for older Windows servers or in cases where a standard Windows login screen is desired. Newer versions of Windows have this mode disabled by default and will only accept NLA unless explicitly configured otherwise.
-
-#### ignore-cert
+### ignore-cert
 If set to “true”, the certificate returned by the server will be ignored, even if that certificate cannot be validated. This is useful if you universally trust the server and your connection to the server, and you know that the server’s certificate cannot be validated (for example, if it is self-signed).
 
-#### disable-auth
+### disable-auth
 If set to “true”, authentication will be disabled. Note that this refers to authentication that takes place while connecting. Any authentication enforced by the server over the remote desktop session (such as a login dialog) will still take place. By default, authentication is enabled and only used when requested by the server.
 
 If you are using NLA, authentication must be enabled by definition.
