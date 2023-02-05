@@ -1,4 +1,4 @@
-###Host table
+### Host table
 
 On this page you can see all yours hosts (users/devices)
 
