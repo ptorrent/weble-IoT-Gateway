@@ -1,5 +1,55 @@
 # RDP
 
+## Authentication and security
+
+RDP provides authentication through the use of a username, password, and optional domain. All RDP connections are encrypted.
+
+Most RDP servers will provide a graphical login if the username, password, and domain parameters are omitted. One notable exception to this is Network Level Authentication, or NLA, which performs all authentication outside of a desktop session, and thus in the absence of a graphical interface.
+
+Servers that require NLA can be handled by Guacamole in one of two ways. The first is to provide the username and password within the connection configuration, either via static values or by passing through the Guacamole credentials with parameter tokens and LDAP authentication. Alternatively, if credentials are not configured within the connection configuration, Guacamole will attempt to prompt the user for the credentials interactively, if the versions of both guacd and Guacamole Client in use support it. If either component does not support prompting and the credentials are not configured, NLA-based connections will fail.
+
+### username
+The username to use to authenticate, if any. This parameter is optional.
+
+### password
+The password to use when attempting authentication, if any. This parameter is optional.
+
+### domain
+The domain to use when attempting authentication, if any. This parameter is optional.
+
+### security
+The security mode to use for the RDP connection. This mode dictates how data will be encrypted and what type of authentication will be performed, if any. By default, a security mode is selected based on a negotiation process which determines what both the client and the server support.
+
+Possible values are:
+
+#### any
+Automatically select the security mode based on the security protocols supported by both the client and the server. This is the default.
+
+#### nla
+Network Level Authentication, sometimes also referred to as “hybrid” or CredSSP (the protocol that drives NLA). This mode uses TLS encryption and requires the username and password to be given in advance. Unlike RDP mode, the authentication step is performed before the remote desktop session actually starts, avoiding the need for the Windows server to allocate significant resources for users that may not be authorized.
+
+If the versions of guacd and Guacamole Client in use support prompting and the username, password, and domain are not specified, the user will be interactively prompted to enter credentials to complete NLA and continue the connection. Otherwise, when prompting is not supported and credentials are not provided, NLA connections will fail.
+
+#### nla-ext
+Extended Network Level Authentication. This mode is identical to NLA except that an additional “Early User Authorization Result” is required to be sent from the server to the client immediately after the NLA handshake is completed.
+
+#### tls
+RDP authentication and encryption implemented via TLS (Transport Layer Security). Also referred to as RDSTLS, the TLS security mode is primarily used in load balanced configurations where the initial RDP server may redirect the connection to a different RDP server.
+
+#### vmconnect
+Automatically select the security mode based on the security protocols supported by both the client and the server, limiting that negotiation to only the protocols known to be supported by Hyper-V / VMConnect.
+
+#### rdp
+Legacy RDP encryption. This mode is generally only used for older Windows servers or in cases where a standard Windows login screen is desired. Newer versions of Windows have this mode disabled by default and will only accept NLA unless explicitly configured otherwise.
+
+#### ignore-cert
+If set to “true”, the certificate returned by the server will be ignored, even if that certificate cannot be validated. This is useful if you universally trust the server and your connection to the server, and you know that the server’s certificate cannot be validated (for example, if it is self-signed).
+
+#### disable-auth
+If set to “true”, authentication will be disabled. Note that this refers to authentication that takes place while connecting. Any authentication enforced by the server over the remote desktop session (such as a login dialog) will still take place. By default, authentication is enabled and only used when requested by the server.
+
+If you are using NLA, authentication must be enabled by definition.
+
 ## Session settings
 
 ### server-layout
