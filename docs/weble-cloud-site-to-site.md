@@ -30,5 +30,9 @@ In this mode the MAC addresses of the packets on the VPN will be used to dynamic
 This mode is primarily useful if you want to bridge Ethernet segments. By selecting switch mode, Subnet parameter will be ignored.
 
 ## Interface
+
 Select nodes you want in your site. 
-4. ![image](https://user-images.githubusercontent.com/6083644/216993593-a28ff946-c231-4e8b-bb5d-b18e3c23735a.png)
+
+![image](https://user-images.githubusercontent.com/6083644/216993593-a28ff946-c231-4e8b-bb5d-b18e3c23735a.png)
+
+After confirmation, nodes will be automaticaly updated. You can see the state of the bridge on a device.
