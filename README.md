@@ -31,7 +31,7 @@ A site-to-site virtual private network (VPN) is a connection between two or more
 
 Site-to-site VPNs are frequently used by companies with multiple offices in different geographic locations that need to access and use the corporate network on an ongoing basis. With a site-to-site VPN, a company can securely connect its corporate network with its remote offices to communicate and share resources with them as a single network.
 
-* [Configure site to site](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-connections-vnc.md)
+* [Configure site to site](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-site-to-site.md)
 
 # Host managment
   1. [Host table](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-cloud-host.md)
