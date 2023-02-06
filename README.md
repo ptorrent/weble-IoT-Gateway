@@ -47,6 +47,8 @@ You can find our API here :
 Our official website :
   [https://www.weble.ch](https://www.weble.ch)
   
+# [Weble IoT Gateway](https://github.com/ptorrent/weble-IoT-Gateway/blob/master/docs/weble-connect.md)
+
 # Current supported drivers 
 
   * Azure Microsoft
